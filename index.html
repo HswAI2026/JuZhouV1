@@ -181,9 +181,10 @@
       }
 
       .action .hf-icon {
-        width: 21px;
-        height: 21px;
-        stroke: none;
+        width: 23px;
+        height: 23px;
+        flex: 0 0 auto;
+        object-fit: contain;
       }
 
       .action[href]:hover,
@@ -289,17 +290,12 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg class="hf-icon" viewBox="0 0 64 64" aria-hidden="true">
-              <circle cx="32" cy="34" r="24" fill="#ffcc4d" />
-              <path d="M12 22c-4 2-7 7-6 12 1 4 5 6 9 4 4-2 6-7 5-11-1-5-4-7-8-5z" fill="#ffcc4d" />
-              <path d="M52 22c4 2 7 7 6 12-1 4-5 6-9 4-4-2-6-7-5-11 1-5 4-7 8-5z" fill="#ffcc4d" />
-              <circle cx="24" cy="30" r="3.2" fill="#664500" />
-              <circle cx="40" cy="30" r="3.2" fill="#664500" />
-              <path d="M23 41c4 5 14 5 18 0" fill="none" stroke="#664500" stroke-width="3" stroke-linecap="round" />
-              <path d="M19 18c3-5 8-7 13-7s10 2 13 7" fill="none" stroke="#ffcc4d" stroke-width="8" stroke-linecap="round" />
-              <path d="M18 19c3-4 7-6 12-6" fill="none" stroke="#664500" stroke-width="3" stroke-linecap="round" opacity=".35" />
-              <path d="M46 19c-3-4-7-6-12-6" fill="none" stroke="#664500" stroke-width="3" stroke-linecap="round" opacity=".35" />
-            </svg>
+            <img
+              class="hf-icon"
+              src="assets/huggingface-logo.svg"
+              alt=""
+              aria-hidden="true"
+            />
             Model
           </a>
 
