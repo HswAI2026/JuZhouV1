@@ -135,6 +135,25 @@
         font-weight: 750;
       }
 
+      .author-groups {
+        display: grid;
+        gap: 8px;
+        max-width: 980px;
+        margin: 28px auto 0;
+        color: #263331;
+        font-size: clamp(15px, 1.7vw, 18px);
+        line-height: 1.5;
+      }
+
+      .author-group {
+        margin: 0;
+      }
+
+      .author-label {
+        color: var(--teal);
+        font-weight: 850;
+      }
+
       .affiliation {
         margin: 8px 0 0;
         color: var(--muted);
@@ -257,7 +276,20 @@
             The First Edge-Native Text-to-Image Foundation Model Trained Entirely on China-Developed AI Accelerators
           </span>
         </h1>
-        <p class="authors">JuZhou Team, HSW Group</p>
+        <div class="author-groups" aria-label="Authors">
+          <p class="author-group">
+            <span class="author-label">Core Contributors:</span>
+            Ce Chen, Zhenchen Wan, Congrui Wang, Yonglin Li, Mingyang Geng, Zhengpeng Xing, Yaqing Hu, Yao Wu, Zhaoyang Qu
+          </p>
+          <p class="author-group">
+            <span class="author-label">Contributors:</span>
+            Long Lan, Xinwang Liu, Yingqi Peng, Shijia Li, Zufeng Zhang, Chen Ma, Jingjing Zhou, Xingyu Wang, Qilin Lu, Bin Jiang, Qilin Sun
+          </p>
+          <p class="author-group">
+            <span class="author-label">Project Leaders:</span>
+            Shanzhi Gu, Yaoguang Jin
+          </p>
+        </div>
         <p class="affiliation">HuiShiWei</p>
 
         <nav class="actions" aria-label="Project links">
